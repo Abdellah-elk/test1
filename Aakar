@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAKAR ESTATE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #004d00; /* Vert foncé */
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header img {
+            max-width: 100px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #006600; /* Vert moyen */
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        .container {
+            padding: 2em;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        .properties {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .property {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 1em;
+            padding: 1em;
+            width: calc(33% - 2em);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .property img {
+            max-width: 100%;
+            height: auto;
+        }
+        .property h3 {
+            margin: 0.5em 0;
+        }
+        .about,
+        .contact {
+            background-color: #fff;
+            padding: 2em;
+            margin: 1em 0;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #004d00; /* Vert foncé */
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="AAKAR.png">
+        <h1>AAKAR ESTATE</h1>
+        <nav>
+            <a href="#home">Accueil</a>
+            <a href="#properties">Propriétés</a>
+            <a href="#about">À propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home">
+            <h2 class="section-title">Bienvenue chez AAKAR ESTATE</h2>
+            <p>Votre partenaire de confiance en immobilier.</p>
+        </section>
+
+        <section id="properties">
+            <h2 class="section-title">Nos Propriétés</h2>
+            <div class="properties">
+                <div class="property">
+                    <img src="VILLA1.jpg" alt="Property 1">
+                    <h3>Propriété 1</h3>
+                    <p>Maison moderne avec 3 chambres et 2 salles de bain.</p>
+                    <p>Prix : $300,000</p>
+                </div>
+                <div class="property">
+                    <img src="VILLA2.jpg" alt="Property 2">
+                    <h3>Propriété 2</h3>
+                    <p>Appartement spacieux avec vue sur la mer.</p>
+                    <p>Prix : $450,000</p>
+                </div>
+                <div class="property">
+                    <img src="VILLA3.jpg" alt="Property 3">
+                    <h3>Propriété 3</h3>
+                    <p>Villa luxueuse avec piscine privée.</p>
+                    <p>Prix : $750,000</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="section-title">À propos de nous</h2>
+            <p>AAKAR ESTATE est une agence immobilière de premier plan offrant des services complets pour l'achat, la vente et la location de biens immobiliers. Notre mission est de fournir des solutions immobilières personnalisées à nos clients en tenant compte de leurs besoins spécifiques.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contactez-nous</h2>
+            <p>Email : contact@aakarestate.com</p>
+            <p>Téléphone : +123 456 7890</p>
+            <p>Adresse : 123 Rue de l'Immobilier, Ville, Pays</p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024 AAKAR ESTATE. Tous droits réservés.
+    </footer>
+</body>
+</html>
+
